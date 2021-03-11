@@ -1,0 +1,115 @@
+
+Bug Report
+
+
+Bug ID: 1
+Bug Description: User can't go back to buggy rating page from popular make page. 
+
+Steps to Reproduce:
+
+Navigate to Overall rating page and click on popular make.
+Now, click on Buggy Rating on top of the page to goto home page.
+
+Expected: User should be able to goto home page
+
+Actual: User needs to click on Register button and then Buggy Rating button to goto home page 
+
+
+
+
+Bug ID: 2
+Bug Description: Pagination issue on overall rating page. 
+
+Steps to Reproduce:
+
+Navigate to Overall rating page and keep on clicking next page.
+
+Expected: User should be able to go only till page 5 of 5
+
+Actual: User can keep on clicking and goto more than page 50 of 5 
+
+
+
+
+Bug ID: 3
+Bug Description: Broken image on overall rating page. 
+
+Steps to Reproduce:
+
+Navigate to Overall rating page and goto Page 5.
+
+Expected: Image of all the cars should be displayed
+
+Actual: Image of one of the cars Lancia Ypsilon is broken
+
+
+
+
+Bug ID: 4
+Bug Description: Author name not recorded while voting for popular model 
+Steps to Reproduce:
+
+Login and navigate to Overall rating page, vote and validate the author column.
+
+Expected: Author column should display the name of the person who voted
+
+Actual: Author name is not recorded 
+
+
+
+
+Bug ID: 5
+Bug Description: Votes filter on overall rating page does not work 
+
+Steps to Reproduce:
+
+Navigate to Overall rating page, click on the votes filter.
+
+Expected: The models should be filtered based on the high or low vote
+
+Actual: Votes filter on overall rating page does not work
+
+
+
+
+Bug ID: 6
+Bug Description: Model and rank filter not working on popular make page
+
+Steps to Reproduce:
+
+Navigate to Popular Make page, click on the model or rank filter.
+
+Expected: The filters should work.
+
+Actual: Model or rank filter does not work
+
+
+
+
+Bug ID: 7
+Bug Description: Login, First Name and Last Name text box on register screen excepts only special characters and user is able to register
+
+Steps to Reproduce:
+
+Navigate to register page and enter special character in the Login, First Name and Last Name text box.
+
+Expected: Register button should not be enabled 
+
+Actual: Register button is enabled 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

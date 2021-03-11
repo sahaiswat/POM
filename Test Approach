@@ -1,0 +1,10 @@
+
+Test Approach 
+
+I have chosen Selenium WebDriver as the test automation tool with Java language.
+Automating most stable functionalities yield results hence have automated the Login functionality, Registering the user and Updating the Profile. 
+I have used data driven approach where registering multiple users can be tested using the test data. 
+Similarly, I have automated the validation of the login of newly registered users and updating the profile of the user is also automated.
+I have found out several critical bugs in the overall rating and popular make and model page. These pages need to be fixed and be stable enough to be automated which can be done in the next phase. 
+The POM design pattern is followed, and the page class and test classes are segregated. Page class contains locators and methods whereas the test class contains test cases.
+This framework is easy to maintain and can be easily extended in the future.
