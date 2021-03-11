@@ -22,7 +22,7 @@ public class TestUtil extends TestBase{
     WebDriver driver;
     static XSSFWorkbook wb;
     static XSSFSheet sheet;
-    public static String TestData_Sheet_Path="C:\\Users\\ssinha\\OneDrive - Pharos Systems International\\Desktop\\selenium\\DemoMavenProject\\src\\main\\java\\com\\qa\\testdata\\Registration.xlsx";
+    public static String TestData_Sheet_Path="C:\\Users\\ssinha\\Desktop\\selenium\\DemoMavenProject\\src\\main\\java\\com\\qa\\testdata\\Registration.xlsx";
      
 	
 	 public static Object[][]getTestData(String sheetname)
