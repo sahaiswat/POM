@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-11T16:29:57 NZDT" name="Suite" finished-at="2021-03-11T16:30:23 NZDT" duration-ms="26635">
+    <groups>
+    </groups>
+    <test started-at="2021-03-11T16:29:57 NZDT" name="Test" finished-at="2021-03-11T16:30:23 NZDT" duration-ms="26635">
+      <class name="com.qa.testcases.RegistrationPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.qa.testcases.RegistrationPageTest@65f095f8]" started-at="2021-03-11T16:29:57 NZDT" name="SetUp" finished-at="2021-03-11T16:30:04 NZDT" duration-ms="7589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifyNewUserLogin(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.RegistrationPageTest@65f095f8]" started-at="2021-03-11T16:30:04 NZDT" name="VerifyNewUserLogin" data-provider="data2" finished-at="2021-03-11T16:30:10 NZDT" duration-ms="5186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1ab2c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA@#1s1sss]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNewUserLogin -->
+        <test-method is-config="true" signature="CloseApplication()[pri:0, instance:com.qa.testcases.RegistrationPageTest@65f095f8]" started-at="2021-03-11T16:30:10 NZDT" name="CloseApplication" finished-at="2021-03-11T16:30:10 NZDT" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.qa.testcases.RegistrationPageTest@65f095f8]" started-at="2021-03-11T16:30:11 NZDT" name="SetUp" finished-at="2021-03-11T16:30:18 NZDT" duration-ms="7199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RegisterUser(java.lang.String, java.lang.String)[pri:2, instance:com.qa.testcases.RegistrationPageTest@65f095f8]" started-at="2021-03-11T16:30:18 NZDT" name="RegisterUser" data-provider="VerifyRegisterUserLogin" finished-at="2021-03-11T16:30:23 NZDT" duration-ms="5180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test11xyz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123A!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterUser -->
+        <test-method is-config="true" signature="CloseApplication()[pri:0, instance:com.qa.testcases.RegistrationPageTest@65f095f8]" started-at="2021-03-11T16:30:23 NZDT" name="CloseApplication" finished-at="2021-03-11T16:30:23 NZDT" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- com.qa.testcases.RegistrationPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
