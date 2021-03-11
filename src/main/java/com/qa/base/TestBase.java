@@ -35,7 +35,7 @@ public class TestBase {
 		try {
 			fis = new FileInputStream
 
-					("C:\\Users\\ssinha\\OneDrive - Pharos Systems International\\Desktop\\selenium\\DemoMavenProject\\src\\main\\java\\com\\qa\\config\\config.properties");
+					("C:\\Users\\ssinha\\Desktop\\selenium\\DemoMavenProject\\src\\main\\java\\com\\qa\\config\\config.properties");
 					try {
 						prop.load(fis);
 					} catch (FileNotFoundException e) {
