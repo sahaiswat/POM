@@ -35,12 +35,6 @@ There is a TestData folder which contains the test data sheet for registering us
 
 Config File folder which contains config file containing information regarding username, browser info, password and Url.
 
-Test Approach: 
-
-The functionalities which are automated are Login, Register, Profile and Rating.
-
-There are few critical bugs which are reported in BugReport file  
-
 Pre-requisites to run it:
 
 Java 1.8 or above should be installed
@@ -49,7 +43,12 @@ An IDE should be available: Eclipse Version: 2020-12 (4.18.0)
 
 Chrome WebDriver: ChromeDriver 88.0.4324.96
 
-Clone the project from github 
+Do the setup as mentioned above
+Clone the project from the github 
+Goto src/test/java/TestNG and open the HomePage.xml/ ProfilePage.xml/ RegistrationPage.xml and Run As TestNG Suite for individual xml file. 
+This will run all the test cases for the corresponding page.
+
+Also can run the project through the pom.xml file. Right click on pom.xml and select Maven test
 
 git clone 
 https://github.com/sahaiswat/WespacAssignment.git
