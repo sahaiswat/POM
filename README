@@ -1,6 +1,4 @@
 
-Resource: https://buggy.justtestit.org
-
 Tool: Selenium WebDriver
 
 Language: Java
@@ -50,5 +48,4 @@ This will run all the test cases for the corresponding page.
 
 Also can run the project through the pom.xml file. Right click on pom.xml and select Maven test
 
-git clone 
-https://github.com/sahaiswat/WespacAssignment.git
+
